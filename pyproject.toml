@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "localnow"
+version = "0.1.0"
+description = "Drop-in replacement for `datetime.datetime.now()` explicitly set with the local timezone."
+authors = ["Sam Mathias"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/sammosummo/localnow"
+repository = "https://github.com/sammosummo/localnow"
+documentation = "https://github.com/sammosummo/localnow"
+keywords = ["datetime", "timezone", "local"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+include = [
+    "LICENSE",
+]
+
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
